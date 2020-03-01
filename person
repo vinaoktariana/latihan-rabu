@@ -1,0 +1,13 @@
+# latihan-rabu
+#latihan tentang turunan
+
+public class person{
+    public String x= "person";
+
+    public void makan(){
+        System.out.println("person makan");
+    }
+    public void minum(){
+        System.out.println("person minum");
+    }
+}
