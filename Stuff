@@ -1,0 +1,25 @@
+# latihan-rabu
+
+public class Stuff extends person {
+    public String x="stuff";
+
+    public void makan(){
+        System.out.println("person makan");
+    }
+    public void minum(){
+        System.out.println("person minum");
+    }
+
+    public static void main(String[] args){
+        Stuff s=new Stuff();
+        s.makan();
+        s.minum();
+
+        person p=new person();
+        p.makan();
+        p.minum();
+
+        //System.out.println(p,x); //bisa manggil variabel atau atribut yang ada di person
+
+    }
+}
